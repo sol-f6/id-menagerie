@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../box-model-position"
+		},
+		{
+			"path": "../animation"
+		},
+		{
+			"path": "../responsive"
+		},
+		{
+			"path": "../cc-homepage/passion-v2"
+		}
+	],
+	"settings": {}
+}

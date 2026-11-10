@@ -1,0 +1,49 @@
+/* wild-card rule, affects EVERYTHING, be careful */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* font tings, seems to be working */
+@font-face {
+    font-family: Dobra Blk;
+    src: url(fonts/Dobra-Black.ttf)
+}
+
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: Libre Baskerville Bold Italic;
+    src: url(fonts/LibreBaskerville-BoldItalic.ttf);
+}
+
+/* buh don't forget the PERIOD in front of CLASS NAMESSSUHHH*/
+
+.yas {
+    font-size: 12pt;
+    font-family: Libre Baskerville Bold Italic;
+    text-align: center;
+
+}
+
+header {
+    font-size: 20px;
+    font-family: Dobra Blk;
+}
+
+img:hover {
+    filter: invert();
+}
+
+
+.copy {
+    font-family: Libre Baskerville;
+    font-size: 10pt;
+}
+

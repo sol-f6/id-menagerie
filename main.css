@@ -1,0 +1,31 @@
+/* wild-card rule, affects EVERYTHING, be careful */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* font tings, seems to be working */
+@font-face {
+    font-family: Dobra Blk;
+    src: url(fonts/Dobra-Black.ttf);
+}
+
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: Libre Baskerville Bold Italic;
+    src: url(fonts/LibreBaskerville-BoldItalic.ttf);
+}
+
+body {
+    font-size: 12pt;
+    font-family: Libre Baskerville Bold Italic;
+    text-align: center;
+}
+
