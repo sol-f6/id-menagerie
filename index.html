@@ -3,10 +3,61 @@
     <head>
         <title> id menagerie </title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="flickity.css">
         <!-- <link rel="shortcut icon" type="image/png" href="images/favicon.png"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <style>
+        body {
+            background-image: url("imgs/tempbg.avif"); /* idfk replace later */
+        }
+    </style>
     <body>
-        <p>scientists discover the hi</p>
+
+        <div class="abs-center">
+            
+            <p style="text-align: center;">
+                <button class="previous-button"> < </button>
+            </p>
+
+            <div class="scene">
+                <div class="carousel" data-flickity="{ 'imagesLoaded': true, 'percentPosition': false }">
+                    <div class="carousel__cell"><a href="tiger.html">tiger</a></div>
+                    <div class="carousel__cell"><a href="sheep.html">sheep</a></div>
+                    <div class="carousel__cell">*</div>
+                    <div class="carousel__cell"><a href="frog.html">frog</a></div>
+                    <div class="carousel__cell"><a href="owl.html">owl</a></div>
+                    <div class="carousel__cell">*</div>
+                    <div class="carousel__cell"><a href="snake.html">snake</a></div>
+                    <div class="carousel__cell"><a href="hare.html">hare</a></div>
+                    <div class="carousel__cell">*</div>
+                    <div class="carousel__cell__mid"><a href="human.html"><img src="imgs/fah.png"></a> </div>
+                </div>
+            </div>
+        
+            <p style="text-align: center;">
+                <button class="next-button"> > </button>
+            </p>
+
+        </div>
+
+        <!-- <div class="scene">
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'
+            >
+                <div class="carousel__cell">1</div>
+                <div class="carousel__cell">2</div>
+                <div class="carousel__cell">3</div>
+                <div class="carousel__cell">4</div>
+                <div class="carousel__cell">5</div>
+                <div class="carousel__cell">6</div>
+                <div class="carousel__cell">7</div>
+                <div class="carousel__cell">8</div>
+                <div class="carousel__cell">9</div>
+            </div>
+        </div> -->
+
     </body>
+            <script src="flickity.pkgd.js"></script>
+            <script src="car.js"></script>
+
 </html>
