@@ -74,7 +74,7 @@ body { font-family: sans-serif; }
   height: 120px;
   left: 10px;
   top: 10px;
-  border: 2px dotted black;
+  /* border: 2px dotted black; */
   line-height: 116px;
   font-size: 35px;
   font-weight: bold;
@@ -127,4 +127,6 @@ button {
 .carousel__cell:nth-child(8) { transform: rotateY(280deg) translateZ(288px); }
 .carousel__cell:nth-child(9) { transform: rotateY(320deg) translateZ(288px); }
 
-
+.brightness {
+    filter: brightness(0);
+}
